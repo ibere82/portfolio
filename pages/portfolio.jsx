@@ -41,7 +41,7 @@ export default function portfolio() {
 
       {jobs.map(({ title, src, description }, index) => {
         return (
-          <div>
+          <div key={index}>
 
             <Card
               title={title}
