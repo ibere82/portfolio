@@ -11,6 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     Site em construção
+    <iframe src="https://calculator.ibere.co"></iframe>
     </div>
   )
 }
