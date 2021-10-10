@@ -6,7 +6,7 @@ export default function Icon({ title, label, href, iconSrc, style, newTab }) {
     <a
       style={style}
       target={newTab ? '_blank' : ''}
-      rel={newTab ? 'noreferrer' : ''}
+      rel="noreferrer"
       title={title}
       href={href}>
 
