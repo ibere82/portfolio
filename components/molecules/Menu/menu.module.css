@@ -1,0 +1,10 @@
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.menuItem{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}

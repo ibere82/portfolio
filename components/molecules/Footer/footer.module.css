@@ -1,0 +1,9 @@
+.container {
+  background-color: #fff;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  width: 100%;
+  border-top: 0.5px solid #999;
+  display: flex;
+  flex-direction: row;
+}

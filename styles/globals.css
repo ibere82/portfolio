@@ -11,6 +11,14 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
+main{
+  padding: 50px;
+}
+
 * {
   box-sizing: border-box;
 }

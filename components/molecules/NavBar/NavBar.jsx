@@ -1,24 +1,23 @@
-import styles from './navbar.module.css';
-import ProfileArea from '../../atoms/ProfileArea';
+import ContactIcons from '../ContactIcons';
+import Icon from '../../atoms/Icon'
+import Menu from '../Menu';
+import css from './navbar.module.css';
 
-export default function NavBar({ userProps: { logged, email, photo, displayName },enabled }) {
+export default function NavBar() {
 
   return (
     <nav>
-      <div className={styles.navbarContainer}>
+      <div className={css.navbarContainer}>
 
-        <div className={styles.title}>
-          <h1><a style={{color:'inherit'}}href='/'>POC oAuth in Next.js</a></h1>
-           </div>
-
-        <ProfileArea
-          icon={logged && photo ? photo : '/user.png'}
-          alt={logged ? displayName : 'user icon'}
-          handle={() => location.href = logged ? "./api/logout" : "./login"}
-          buttonLabel={logged ? 'Logout' : 'Login'}
-          buttonEnabled={enabled}
-          bottomText={email}
-        />
+      <Icon
+        title="Iberê' s home"
+        href='/'
+        label=''
+        iconSrc="/icons/ibere.jpeg"
+      />
+        <Menu />
+        <ContactIcons />
+        
       </div>
     </nav >
   );
