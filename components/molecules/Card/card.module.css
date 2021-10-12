@@ -1,18 +1,17 @@
 .card {
-  border: 1px solid gray  ;
-  border-radius: 8px;
-  max-width: 300px;
-  min-width: 300px;
-  max-height: 200px;
-  min-height: 200px;
-  margin: 5px;
+  border: 1.5px solid gray  ;
+  max-width: 304px;
+  min-width: 304px;
+  max-height: 300px;
+  min-height: 300px;
+  margin: 15px;
+  overflow: hidden;
 }
 
-.idCard{
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center!important;
-  margin-right: 20px;
-  font-weight: bold;
+.content{
+  padding: 2px;
 }
 
+.title{
+  padding: 2px;
+}

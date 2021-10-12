@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Calculator",
+    "page": "calculator",
+    "description": "Calculator developed using API to convert string Math",
+    "externalURL": "http://calculator.ibere.co",
+    "linkDescription": "page",
+    "categories": ["deployed", "app", "logic"]
+  },
+  {
+    "title": "Alurakut",
+    "page": "alurakut",
+    "description": "Desenvolvida durante imersão react da alura",
+    "externalURL": "https://alurakut.ibere.co",
+    "linkDescription": "page",
+    "categories": ["deployed"]
+  },
+  {
+    "title": "Number In full",
+    "page": "pt-br-number-in-full",
+    "description": "Converts a number to a brasilian portuguese word number",
+    "externalURL": "https://www.npmjs.com/package/pt-br-number-in-full",
+    "linkDescription": "NPM repository",
+    "categories": ["NPM package"]
+  },
+  {
+    "title": "Oauth with Next using passport and next-connect",
+    "page": "oauth-with-next",
+    "description": "POC Oauth with Next using passport and next-connect",
+    "externalURL": "https://github.com/ibere82/oauth-with-next-and-passport",
+    "linkDescription": "GitHub repository",
+    "categories": ["pocs"]
+  }
+]
