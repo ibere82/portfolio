@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import jobs from "../../../data/jobs.json"
 
-export default function index() {
+export default function Index() {
   const [pageInfo, setPageInfo] = useState({ title: '', page: '', description: '', externalURL: '', linkDescription: '', categories: [] })
 
   const router = useRouter()
